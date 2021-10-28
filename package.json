@@ -1,20 +1,31 @@
 {
-  "name": "typescript-template",
+  "name": "gatsby-source-plugin-zoega",
   "version": "1.0.0",
-  "description": "Template repo for generic TypeScript /  Node.js library with tests & lint",
-  "repository": "https://github.com/stscoundrel/typescript-template.git",
+  "description": "Gatsby Source plugin for Old Icelandic dictionary by Geir Zoëga",
+  "repository": "https://github.com/stscoundrel/gatsby-source-plugin-zoega.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
   "license": "MIT",
   "private": false,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "old-icelandic",
+    "zoega"
+  ],
+  "main": "dist/gatsby-node.js",
+  "types": "dist/gatsby-node.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "gatsby-node.js"
   ],
   "engines": {
     "node": ">=12.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "old-icelandic-zoega": "^1.1.4",
+    "slugify": "^1.6.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
@@ -22,13 +33,15 @@
     "@stryker-mutator/core": "^5.4.1",
     "@stryker-mutator/jest-runner": "^5.4.1",
     "@types/jest": "^27.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
     "babel-jest": "^27.3.1",
-    "eslint": "^7.32.0",
+    "eslint": "^8.1.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jest": "^25.2.2",
+    "gatsby-plugin-utils": "^2.0.0",
     "jest": "^27.3.1",
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
