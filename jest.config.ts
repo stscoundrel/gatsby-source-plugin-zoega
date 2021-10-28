@@ -1,6 +1,7 @@
 module.exports = {
   collectCoverageFrom: [
     'src/**',
+    '!src/models',
   ],
   testEnvironment: 'node',
   verbose: false,
