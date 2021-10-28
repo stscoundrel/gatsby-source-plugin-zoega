@@ -1,9 +1,6 @@
+import { PluginOptions } from './models';
 import { getEntries } from './services/dictionary';
 import { parseGatsbyNodes } from './services/datalayer';
-
-interface PluginOptions {
-  noMarkup: boolean,
-}
 
 /**
  * Main Gatsby hook for creating nodes to datalayer.
