@@ -3833,9 +3833,9 @@ object.values@^1.1.5:
     es-abstract "^1.19.1"
 
 old-icelandic-zoega@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/old-icelandic-zoega/-/old-icelandic-zoega-1.1.4.tgz#c3abab6ceca2e1e8a983b97f0d9097accf50c115"
-  integrity sha512-7atTkm0B+M7xofUtzKgCD1iD579AUL6Qkdb+tbdtbOg87zlsZBPTrdrCQn9kkZikB2T9BPikB/3EvpyvKgsecg==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/old-icelandic-zoega/-/old-icelandic-zoega-1.2.1.tgz#29fa2bf7ac212c71dbec4bac411d437507421ed7"
+  integrity sha512-1zOImPbOvqRZIvvTAE5vVII/xza85KAXreouYt8S+5eYBAwbwMS37ozs7f1j/L6KAHdZdx6F4vuIcNE/rHHbGw==
 
 once@^1.3.0:
   version "1.4.0"
